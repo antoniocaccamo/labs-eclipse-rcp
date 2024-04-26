@@ -1,0 +1,15 @@
+= rcp
+
+== references
+
+=== vogella
+
+* https://www.vogella.com/tutorials/EclipseRCP/article.html#exercise-creating-an-eclipse-rcp-application
+* https://www.vogella.com/tutorials/EclipseLogging/article.html
+
+=== Eclipse Tycho
+* https://tycho.eclipseprojects.io/doc/latest/StructuredBuild.html
+* https://wiki.eclipse.org/Tycho/Demo_Projects/RCP_Application
+* https://github.com/eclipse-tycho/tycho/tree/main/demo/itp04-rcp
+
+
