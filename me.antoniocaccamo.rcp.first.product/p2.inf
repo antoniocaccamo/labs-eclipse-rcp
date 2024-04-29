@@ -1,3 +1,0 @@
-instructions.configure=\
-  addRepository(type:0,location:file${#58}/home/antonio/Workspaces/me/labs-eclipse-rcp/me.antoniocaccamo.rcp.first.product/target/repository);\
-  addRepository(type:1,location:file${#58}/home/antonio/Workspaces/me/labs-eclipse-rcp/me.antoniocaccamo.rcp.first.product/target/repository/);

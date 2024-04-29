@@ -4,7 +4,7 @@
     xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.antoniocaccamo</groupId>
-    <artifactId>me.antoniocaccamo.rpc.first</artifactId>
+    <artifactId>me.antoniocaccamo.playerrcp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -17,27 +17,31 @@
 
     <modules>
 		<!-- The Target Platform -->
-        <module>me.antoniocaccamo.rcp.first.target</module>
-        
-        <!-- The Plug-in Projects -->
-		<module>me.antoniocaccamo.rcp.first.logging</module>
-        <module>me.antoniocaccamo.rcp.first.ui</module>
-        
-        <!-- The Feature Projects -->
-        <module>me.antoniocaccamo.rcp.first.feature</module>
-        
-        <!-- The Release Engineering Projects -->
-        <module>me.antoniocaccamo.rcp.first.product</module>
-    </modules> 
+		<module>me.antoniocaccamo.playerrpc.target</module>
+
+		<!-- The Plug-in Projects -->
+		<module>me.antoniocaccamo.playerrpc.inverter</module>
+        <module>me.antoniocaccamo.playerrpc.service.inverter</module>
+		<!--
+        <module>me.antoniocaccamo.playerrpc.logview</module>
+		<module>me.antoniocaccamo.playerrpc.app</module>
+		-->
+		<!-- The Feature Projects 
+		<module>me.antoniocaccamo.playerrpc.feature</module>
+		-->
+		<!-- The Release Engineering Projects 
+		<module>me.antoniocaccamo.playerrpc.product</module>
+        -->
+	</modules>
 
     <dependencies>
-        
+        <!--
         <dependency>
             <groupId>jakarta.activation</groupId>
             <artifactId>jakarta.activation-api</artifactId>
             <version>2.1.3</version>
         </dependency>
-        
+        -->
 <!--        <dependency>-->
 <!--		    <groupId>ch.qos.logback</groupId>-->
 <!--		    <artifactId>logback-classic</artifactId>-->
@@ -91,12 +95,14 @@
                 <configuration>
                     <executionEnvironment>JavaSE-17</executionEnvironment>
                     <target>
-<!--                        <file>../me.antoniocaccamo.rcp.first.target.platform/target-platform.target</file>-->
-						<artifact>
+                        <file>../me.antoniocaccamo.playerrpc.target/me.antoniocaccamo.playerrpc.target.target</file>
+						<!--
+                        <artifact>
 							<groupId>me.antoniocaccamo</groupId>
-							<artifactId>me.antoniocaccamo.rcp.first.target</artifactId>
+							<artifactId>me.antoniocaccamo.playerrcp.target</artifactId>
 							<version>${project.version}</version>
 						</artifact>
+                        -->
                     </target>
                     <environments>
                         <environment>
