@@ -9,14 +9,24 @@
     <packaging>pom</packaging>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+		<tycho.version>4.0.7</tycho.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
     <modules>
-        <module>me.antoniocaccamo.rcp.first.target.platform</module>
+		<!-- The Target Platform -->
+        <module>me.antoniocaccamo.rcp.first.target</module>
+        
+        <!-- The Plug-in Projects -->
 		<module>me.antoniocaccamo.rcp.first.logging</module>
         <module>me.antoniocaccamo.rcp.first.ui</module>
+        
+        <!-- The Feature Projects -->
         <module>me.antoniocaccamo.rcp.first.feature</module>
+        
+        <!-- The Release Engineering Projects -->
         <module>me.antoniocaccamo.rcp.first.product</module>
     </modules> 
 
@@ -81,7 +91,12 @@
                 <configuration>
                     <executionEnvironment>JavaSE-17</executionEnvironment>
                     <target>
-                        <file>../me.antoniocaccamo.rcp.first.target.platform/target-platform.target</file>
+<!--                        <file>../me.antoniocaccamo.rcp.first.target.platform/target-platform.target</file>-->
+						<artifact>
+							<groupId>me.antoniocaccamo</groupId>
+							<artifactId>me.antoniocaccamo.rcp.first.target</artifactId>
+							<version>${project.version}</version>
+						</artifact>
                     </target>
                     <environments>
                         <environment>

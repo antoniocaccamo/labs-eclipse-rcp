@@ -2,8 +2,6 @@ package me.antoniocaccamo.rcp.first.ui.handlers;
 
 import java.lang.reflect.InvocationTargetException;
 
-import java.lang.reflect.InvocationTargetException;
-
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;

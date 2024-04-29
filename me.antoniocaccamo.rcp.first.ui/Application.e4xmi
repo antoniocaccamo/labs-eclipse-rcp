@@ -11,7 +11,8 @@
   </children>
   <handlers xmi:id="_R8dKMAIQEe-EdvwVud1qYA" elementId="me.antoniocaccamo.rcp.first.ui.handler.exit" contributionURI="bundleclass://me.antoniocaccamo.rcp.first.ui/me.antoniocaccamo.rcp.first.ui.handlers.ExitHandler" command="_08IOkAIPEe-EdvwVud1qYA"/>
   <handlers xmi:id="_l4JccAYJEe-Fqfp7YQ7p2Q" elementId="me.antoniocaccamo.rcp.first.ui.handler.update" contributionURI="bundleclass://me.antoniocaccamo.rcp.first.ui/me.antoniocaccamo.rcp.first.ui.handlers.UpdateHandler" command="_fTgqwAYJEe-Fqfp7YQ7p2Q"/>
-  <rootContext xmi:id="_7ZPw8AYKEe-Fqfp7YQ7p2Q" elementId="me.antoniocaccamo.rcp.first.ui.bindingcontext.0"/>
+  <rootContext xmi:id="_7ZPw8AYKEe-Fqfp7YQ7p2Q" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+  <rootContext xmi:id="_LPQ0UAZAEe-y6sDDn5l8mw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   <commands xmi:id="_08IOkAIPEe-EdvwVud1qYA" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
   <commands xmi:id="_fTgqwAYJEe-Fqfp7YQ7p2Q" elementId="me.antoniocaccamo.rcp.first.ui.command.update" commandName="Update"/>
   <addons xmi:id="_i4JVAf2LEe6mctUD2ics1A" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
