@@ -10,7 +10,7 @@
   <artifactId>me.antoniocaccamo.rcp.first</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>eclipse-repository</packaging>
-  <name>[product] First RCP Application</name>
+  <name>[product] me.antoniocaccamo.rcp.first</name>
   <build>
     <plugins>
       <plugin>

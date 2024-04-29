@@ -3,40 +3,17 @@
 <plugin>
 
    <extension
-         id="rcp_first_product"
-         point="org.eclipse.core.runtime.products">
-      <product
-            name="rcp.first"
-            application="org.eclipse.e4.ui.workbench.swt.E4Application">
-         <property
-               name="appName"
-               value="rcp.first">
-         </property>
-         <property
-               name="aboutImage"
-               value="images/logo.png">
-         </property>
-      </product>
-   </extension>
-   <extension
-         id="rpcfirst"
-         point="org.eclipse.core.runtime.products">
-      <product
-            application="org.eclipse.e4.ui.workbench.swt.E4Application"
-            name="rpcfirst">
-         <property
-               name="appName"
-               value="rpcfirst">
-         </property>
-      </product>
-   </extension>
-   <extension
-         id="me_antoniocaccamo_rcp_first_ui"
+         id="product"
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
             name="First RCP Application">
+         <property
+               name="appName"
+               value="First RCP Application">
+         </property>
       </product>
    </extension>
+  
 
 </plugin>
