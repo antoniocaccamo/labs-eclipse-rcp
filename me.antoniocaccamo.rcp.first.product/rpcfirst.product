@@ -3,6 +3,7 @@
 
 <product name="rpcfirst" uid="rpcfirst" id="me.antoniocaccamo.rcp.first.ui.rpcfirst" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" type="features" includeLaunchers="true" includeJRE="true" autoIncludeRequirements="true">
 
+
    <configIni use="default">
    </configIni>
 
@@ -20,6 +21,7 @@
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>
@@ -116,10 +118,17 @@
       <feature id="org.eclipse.emf.ecore" installMode="root"/>
       <feature id="org.eclipse.emf.common" installMode="root"/>
       <feature id="org.eclipse.rcp" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.core.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient5.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclientjava.feature" installMode="root"/>
    </features>
 
    <configurations>
-      <plugin id="me.antoniocaccamo.rcp.first.logging" autoStart="true" startLevel="0" />
+      <plugin id="me.antoniocaccamo.rcp.first.logging" autoStart="true" startLevel="4" />
       <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />

@@ -42,5 +42,10 @@
 		    <unit id="org.slf4j.ext" version="1.7.30.v20221112-0806"/>
 		    <unit id="org.slf4j.ext.source" version="1.7.30.v20221112-0806"/>
 	    </location>
+	    <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="false" type="InstallableUnit">
+		    <repository location="https://download.eclipse.org/releases/2024-03/"/>
+		    <unit id="epp.package.rcp" version="4.31.0.20240307-1200"/>
+		    <unit id="org.eclipse.equinox.executable.feature.group" version="3.8.2400.v20240213-1244"/>
+	    </location>
     </locations>
 </target>
