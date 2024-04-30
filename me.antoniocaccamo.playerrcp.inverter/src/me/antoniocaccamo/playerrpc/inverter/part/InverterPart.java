@@ -13,12 +13,18 @@ import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Text;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import me.antoniocaccamo.playerrpc.service.inverter.InverterService;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.inject.Inject;
 
 public class InverterPart {
+	
+	private static final Logger logger = LoggerFactory.getLogger(InverterPart.class);
+	 
 	
 	@Inject
 	@Service
@@ -54,6 +60,7 @@ public class InverterPart {
 			public void widgetSelected(SelectionEvent e) {
 				output.setText(inverter.invert(input.getText()));
 				broker.post("TOPIC_LOGGING", "triggered via button");
+				logger.info("via button");
 			}
 		});
 
@@ -64,6 +71,7 @@ public class InverterPart {
 						|| e.keyCode == SWT.KEYPAD_CR) {
 					output.setText(inverter.invert(input.getText()));
 					broker.post("TOPIC_LOGGING", "triggered via field");
+					logger.info("via field");
 				}
 			}
 		});
