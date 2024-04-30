@@ -1,4 +1,4 @@
-package org.fipro.eclipse.tutorial.logview.part;
+package me.antoniocaccamo.playerrpc.logview.part;
 
 import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.ui.di.UIEventTopic;

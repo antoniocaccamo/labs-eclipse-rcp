@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Eclipse Cookbook Application" uid="org.fipro.eclipse.tutorial"
-	id="org.fipro.eclipse.tutorial.app.product"
+<product name="Eclipse Cookbook Application" uid="me.antoniocaccamo.playerrpc"
+	id="me.antoniocaccamo.playerrpc.app.product"
 	application="org.eclipse.e4.ui.workbench.swt.E4Application"
 	version="1.0.0.qualifier" type="features" includeLaunchers="true"
 	autoIncludeRequirements="true">
@@ -34,7 +34,7 @@
 		<feature id="org.eclipse.e4.rcp" />
 		<feature id="org.eclipse.emf.ecore" />
 		<feature id="org.eclipse.emf.common" />
-		<feature id="org.fipro.eclipse.tutorial.feature" installMode="root" />
+		<feature id="me.antoniocaccamo.playerrpc.feature" installMode="root" />
 	</features>
 
 	<configurations>

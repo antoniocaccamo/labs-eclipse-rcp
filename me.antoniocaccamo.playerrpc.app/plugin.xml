@@ -9,7 +9,7 @@
             application="org.eclipse.e4.ui.workbench.swt.E4Application">
          <property
                name="applicationCSS"
-               value="platform:/plugin/org.fipro.eclipse.tutorial.app/css/default.css">
+               value="platform:/plugin/me.antoniocaccamo.playerrpc.app/css/default.css">
          </property>
          <property
                name="appName"

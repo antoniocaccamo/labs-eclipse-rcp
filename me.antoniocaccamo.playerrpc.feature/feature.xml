@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.fipro.eclipse.tutorial.feature"
+      id="me.antoniocaccamo.playerrpc.feature"
       label="Feature"
       version="1.0.0.qualifier">
 
@@ -17,19 +17,19 @@
    </license>
 
    <plugin
-         id="org.fipro.eclipse.tutorial.app"
+         id="me.antoniocaccamo.playerrpc.app"
          version="0.0.0"/>
 
    <plugin
-         id="org.fipro.eclipse.tutorial.inverter"
+         id="me.antoniocaccamo.playerrpc.inverter"
          version="0.0.0"/>
 
    <plugin
-         id="org.fipro.eclipse.tutorial.service.inverter"
+         id="me.antoniocaccamo.playerrpc.service.inverter"
          version="0.0.0"/>
 
    <plugin
-         id="org.fipro.eclipse.tutorial.logview"
+         id="me.antoniocaccamo.playerrcp.logview"
          version="0.0.0"/>
 
 </feature>

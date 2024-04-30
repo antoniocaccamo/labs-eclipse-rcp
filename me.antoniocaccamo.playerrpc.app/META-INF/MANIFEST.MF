@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Eclipse Cookbook Application
-Bundle-SymbolicName: org.fipro.eclipse.tutorial.app;singleton:=true
+Bundle-SymbolicName: me.antoniocaccamo.playerrpc.app;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.swt,
  org.eclipse.e4.ui.model.workbench,
@@ -15,4 +15,4 @@ Require-Bundle: org.eclipse.swt,
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Import-Package: jakarta.annotation;version="[2.1.0,3.0.0)",
  jakarta.inject;version="[2.0.0,3.0.0)"
-Automatic-Module-Name: org.fipro.eclipse.tutorial.app
+Automatic-Module-Name: me.antoniocaccamo.playerrpc.app

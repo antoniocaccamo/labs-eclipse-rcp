@@ -22,16 +22,16 @@
 		<!-- The Plug-in Projects -->
 		<module>me.antoniocaccamo.playerrpc.inverter</module>
         <module>me.antoniocaccamo.playerrpc.service.inverter</module>
-		<!--
+		
         <module>me.antoniocaccamo.playerrpc.logview</module>
 		<module>me.antoniocaccamo.playerrpc.app</module>
-		-->
-		<!-- The Feature Projects 
+		
+		 
 		<module>me.antoniocaccamo.playerrpc.feature</module>
-		-->
-		<!-- The Release Engineering Projects 
+		
+		<!-- The Release Engineering Projects -->
 		<module>me.antoniocaccamo.playerrpc.product</module>
-        -->
+        
 	</modules>
 
     <dependencies>
