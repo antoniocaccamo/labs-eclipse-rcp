@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_tv09MKYzEeSD7pZHnwEr_g" elementId="org.eclipse.e4.ide.application" bindingContexts="_tv09OaYzEeSD7pZHnwEr_g">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_tv09MaYzEeSD7pZHnwEr_g" elementId="org.eclipse.e4.window.main" label="Player RCP" width="500" height="400">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_eJLHQKbJEeSD7pZHnwEr_g" elementId="me.antoniocaccamo.playerrpc.app.main"/>
+    <mainMenu xmi:id="_z8_VsAcFEe-m6Mb4RuggGQ" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_4744oAcFEe-m6Mb4RuggGQ" elementId="me.antoniocaccamo.playerrpc.app.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6K3NMAcFEe-m6Mb4RuggGQ" elementId="me.antoniocaccamo.playerrpc.app.handledmenuitem.update" label="Update" command="_42Nk4Ab5Ee-m6Mb4RuggGQ"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_niVusAcMEe-m6Mb4RuggGQ" elementId="me.antoniocaccamo.playerrpc.app.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_osa8MAcMEe-m6Mb4RuggGQ" elementId="me.antoniocaccamo.playerrpc.app.handledmenuitem.exit" label="Exit" command="_ROZ0kAb2Ee-4NLDZer8XCA"/>
+      </children>
+    </mainMenu>
+  </children>
+  <handlers xmi:id="_g0APcAcBEe-m6Mb4RuggGQ" elementId="me.antoniocaccamo.playerrpc.app.handler.update" contributionURI="bundleclass://me.antoniocaccamo.playerrpc.app/me.antoniocaccamo.playerrpc.app.handler.UpdateHandler" command="_42Nk4Ab5Ee-m6Mb4RuggGQ"/>
+  <handlers xmi:id="__pm1MAcCEe-m6Mb4RuggGQ" elementId="me.antoniocaccamo.playerrpc.app.handler.exit" contributionURI="bundleclass://me.antoniocaccamo.playerrpc.app/me.antoniocaccamo.playerrpc.app.handler.ExitHandler" command="_ROZ0kAb2Ee-4NLDZer8XCA"/>
+  <rootContext xmi:id="_tv09OaYzEeSD7pZHnwEr_g" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_tv09OqYzEeSD7pZHnwEr_g" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_tv09O6YzEeSD7pZHnwEr_g" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_ROZ0kAb2Ee-4NLDZer8XCA" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
+  <commands xmi:id="_42Nk4Ab5Ee-m6Mb4RuggGQ" elementId="me.antoniocaccamo.playerrpc.app.command.update" commandName="Update"/>
+  <addons xmi:id="_tv09MqYzEeSD7pZHnwEr_g" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_tv09M6YzEeSD7pZHnwEr_g" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_tv09NKYzEeSD7pZHnwEr_g" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_tv09NaYzEeSD7pZHnwEr_g" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_tv09NqYzEeSD7pZHnwEr_g" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_tv09N6YzEeSD7pZHnwEr_g" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_tv09OKYzEeSD7pZHnwEr_g" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

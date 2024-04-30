@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Inverter Service
+Bundle-SymbolicName: me.antoniocaccamo.playerrpc.service.inverter
+Bundle-Version: 1.0.0.qualifier
+Export-Package: me.antoniocaccamo.playerrpc.service.inverter
+Import-Package: org.osgi.service.event;version="[1.4.0,2.0.0]"
+Service-Component: OSGI-INF/inverter.xml
+Automatic-Module-Name: me.antoniocaccamo.playerrpc.service.inverter
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17

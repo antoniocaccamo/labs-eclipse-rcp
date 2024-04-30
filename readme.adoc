@@ -1,11 +1,16 @@
-= rcp
+= Eclipse RCP (Rich Client Platform)
+
 
 == references
 
 === vogella
 
-* https://www.vogella.com/tutorials/EclipseRCP/article.html#exercise-creating-an-eclipse-rcp-application
-* https://www.vogella.com/tutorials/EclipseLogging/article.html
+* https://www.vogella.com/tutorials/EclipseRCP/article.html#exercise-creating-an-eclipse-rcp-application[Eclipse RCP (Rich Client Platform) - Tutorial]
+* https://www.vogella.com/tutorials/EclipseLogging/article.html[Eclipse Logging- Tutorial]
+
+=== codecentric
+* https://www.codecentric.de/wissens-hub/blog/eclipse-rcp-cookbook-basic-recipe[Eclipse RCP Cookbook – Basic Recipe]
+* https://www.codecentric.de/wissens-hub/blog/add-p2-update-functionality-to-an-eclipse-4-application-eclipse-rcp-cookbook[Add p2 update functionality to an Eclipse 4 application – Eclipse RCP Cookbook]
 
 === Eclipse Tycho
 * https://tycho.eclipseprojects.io/doc/latest/StructuredBuild.html
