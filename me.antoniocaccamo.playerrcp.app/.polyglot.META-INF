@@ -10,5 +10,8 @@
   <artifactId>me.antoniocaccamo.playerrpc.app</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
-  <name>[bundle] Eclipse Cookbook Application</name>
+  <name>[bundle] Player RCP</name>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+  </build>
 </project>

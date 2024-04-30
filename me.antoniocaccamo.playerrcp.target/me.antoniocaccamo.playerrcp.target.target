@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
-<target name="E4 Cookbook Target Platform" sequenceNumber="1568034040">
+<target name="E4  Target Platform" sequenceNumber="1568034040">
 	<locations>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			
@@ -16,6 +16,10 @@
 			<unit id="org.slf4j.api" version="1.7.30.v20221112-0806"/>
 			<unit id="org.slf4j.binding.simple" version="1.7.30.v20221112-0806"/>
 			<unit id="org.slf4j.ext" version="1.7.30.v20221112-0806"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="https://download.eclipse.org/nebula/releases/latest"/>
+			<unit id="org.eclipse.nebula.widgets.opal.notifier.feature.feature.group" version="1.0.0.202402011804"/>
 		</location>
 	</locations>
 </target>
