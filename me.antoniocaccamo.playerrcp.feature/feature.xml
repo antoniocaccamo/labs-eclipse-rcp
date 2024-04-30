@@ -17,10 +17,6 @@
    </license>
 
    <plugin
-         id="me.antoniocaccamo.playerrpc.app"
-         version="0.0.0"/>
-
-   <plugin
          id="me.antoniocaccamo.playerrpc.inverter"
          version="0.0.0"/>
 
@@ -46,6 +42,10 @@
 
    <plugin
          id="ch.qos.logback.classic"
+         version="0.0.0"/>
+
+   <plugin
+         id="me.antoniocaccamo.playerrpc.app"
          version="0.0.0"/>
 
 </feature>
