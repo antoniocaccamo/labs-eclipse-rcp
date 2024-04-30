@@ -35,6 +35,7 @@ public class Activator implements BundleActivator {
 	        // this assumes that the logback.xml file is in the root of the bundle.
 	        URL logbackConfigFileUrl = FileLocator.find(bundle, new Path("logback.xml"),null);
 	        jc.doConfigure(logbackConfigFileUrl.openStream());
+	        LoggerFactory.getLogger(Activator.class).info("configuration logger done");
 		} 
 		catch (Throwable t) {
 			System.err.println("error occurred: " + t.getCause());

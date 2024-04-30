@@ -5,11 +5,11 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            name="Eclipse Cookbook Application"
+            name="Player RCP"
             application="org.eclipse.e4.ui.workbench.swt.E4Application">
          <property
                name="appName"
-               value="Eclipse Cookbook Application">
+               value="Player RCP">
          </property>
       </product>
    </extension>

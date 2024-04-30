@@ -10,7 +10,7 @@
   <artifactId>me.antoniocaccamo.playerrpc</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>eclipse-repository</packaging>
-  <name>[product] Eclipse Cookbook Application</name>
+  <name>[product] Player RCP</name>
   <build>
     <plugins>
       <plugin>
