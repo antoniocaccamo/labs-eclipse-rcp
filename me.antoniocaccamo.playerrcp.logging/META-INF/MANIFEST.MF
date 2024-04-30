@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Logging
+Bundle-SymbolicName: me.antoniocaccamo.playerrcp.logging
+Bundle-Version: 1.0.0.qualifier
+Import-Package: org.slf4j;version="[1.7.0,2.0.0]"
+Bundle-Activator: me.antoniocaccamo.playerrcp.logging.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.osgi,
+ ch.qos.logback.core;bundle-version="1.2.3",
+ ch.qos.logback.classic;bundle-version="1.2.3"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: me.antoniocaccamo.playerrcp.logging
+Bundle-ActivationPolicy: lazy
