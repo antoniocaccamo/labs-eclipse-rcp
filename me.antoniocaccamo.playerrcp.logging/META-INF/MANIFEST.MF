@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Logging
+Bundle-SymbolicName: me.antoniocaccamo.playerrcp.logging
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: me.antoniocaccamo.playerrcp.logging.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: me.antoniocaccamo.playerrcp.logging
+Bundle-ActivationPolicy: lazy

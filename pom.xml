@@ -17,20 +17,20 @@
 
     <modules>
 		<!-- The Target Platform -->
-		<module>me.antoniocaccamo.playerrpc.target</module>
+		<module>me.antoniocaccamo.playerrcp.target</module>
 
 		<!-- The Plug-in Projects -->
-		<module>me.antoniocaccamo.playerrpc.inverter</module>
-        <module>me.antoniocaccamo.playerrpc.service.inverter</module>
-		
-        <module>me.antoniocaccamo.playerrpc.logview</module>
-		<module>me.antoniocaccamo.playerrpc.app</module>
+        <module>me.antoniocaccamo.playerrcp.logging</module>
+		<module>me.antoniocaccamo.playerrcp.inverter</module>
+        <module>me.antoniocaccamo.playerrcp.service.inverter</module>
+        <module>me.antoniocaccamo.playerrcp.logview</module>
+		<module>me.antoniocaccamo.playerrcp.app</module>
 		
 		 
-		<module>me.antoniocaccamo.playerrpc.feature</module>
+		<module>me.antoniocaccamo.playerrcp.feature</module>
 		
 		<!-- The Release Engineering Projects -->
-		<module>me.antoniocaccamo.playerrpc.product</module>
+		<module>me.antoniocaccamo.playerrcp.product</module>
         
 	</modules>
 
@@ -95,14 +95,14 @@
                 <configuration>
                     <executionEnvironment>JavaSE-17</executionEnvironment>
                     <target>
-                        <file>../me.antoniocaccamo.playerrpc.target/me.antoniocaccamo.playerrpc.target.target</file>
-						<!--
+                        <!-- <file>../me.antoniocaccamo.playerrcp.target/me.antoniocaccamo.playerrcp.target.target</file> -->
+						
                         <artifact>
 							<groupId>me.antoniocaccamo</groupId>
 							<artifactId>me.antoniocaccamo.playerrcp.target</artifactId>
 							<version>${project.version}</version>
 						</artifact>
-                        -->
+                        
                     </target>
                     <environments>
                         <environment>
